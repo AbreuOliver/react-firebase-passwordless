@@ -31,7 +31,7 @@ export const AuthProvider = ({ children }) => {
     return firebase
       .auth()
       .sendSignInLinkToEmail(email, {
-        url: 'https://react-firebase-passwordless.vercel.app/confirm',
+        url: 'stateelectricselector.firebaseapp.com/confirm',
         handleCodeInApp: true,
       })
       .then(() => {

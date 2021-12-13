@@ -42,7 +42,7 @@ const ConfirmForm = () => {
       p={6}
     >
       <Heading as="h1" mb={6}>
-        Confirm Email
+        One last step: confirm your email:
       </Heading>
       {errors.email && (
         <Alert status="error" variant="subtle" mt={6} mb={6}>

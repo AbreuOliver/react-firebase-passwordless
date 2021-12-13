@@ -1,5 +1,5 @@
 {
-  "name": "firebase-auth-video",
+  "name": "firebase-passwordless-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
