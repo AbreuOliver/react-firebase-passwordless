@@ -31,7 +31,7 @@ export const AuthProvider = ({ children }) => {
     return firebase
       .auth()
       .sendSignInLinkToEmail(email, {
-        url: 'stateelectricselector.firebaseapp.com/confirm',
+        url: 'https://taginator.app/confirm',
         handleCodeInApp: true,
       })
       .then(() => {
